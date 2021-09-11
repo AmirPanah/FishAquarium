@@ -54,7 +54,7 @@ int main() {
     gotoxy(13,2); 
     // loop thru left to right direction"
     for(int a =1; a<50; a=a+2){
-        gotoxy(a,3);
+        gotoxy(a,3); //Move to Special Position
         cout << "~^";
     }
     //loop thru top to bottom direction
@@ -82,7 +82,7 @@ int main() {
 
     //fish 1
         Sleep(100);
-        gotoxy(a,6);
+        gotoxy(a,6); //Move to Special Position
         cout << "   __";
         gotoxy(a,7);
         cout << " \\/ o\\";
